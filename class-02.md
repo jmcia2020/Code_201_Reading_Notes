@@ -1,4 +1,4 @@
-Tags:
+#Tags:
 
 
 |anchor tag| <a> href="http://yourlink.something">TextForClicking</a>  |
@@ -20,5 +20,23 @@ The Main Homepage is index.html
 
 Quailified URLS link to the homepage.
 Relativve URLS link to pages in the same site.
+
+#Layout
+
+##Relative Positioning
+
+h1 {
+**position: absolute;**
+top: 0px;
+left: 500px;
+width: 250px;}
+p {
+width: 450px;}
+p.example {
+**position: relative;**
+top: 10px;
+left: 100px;}
+
+## Absolut Position
 
 
